@@ -49,3 +49,6 @@ Feedback is always welcome, so if you have any on this challenge please email me
 This challenge is completely free. Please share it with anyone who will find it useful to practice on.
 
 **Have fun building!** 🚀
+
+## Launch the application
+https://chamumutezva.github.io/HuddlePageStage1/
