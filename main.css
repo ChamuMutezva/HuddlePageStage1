@@ -43,14 +43,14 @@ main img {
 
 footer {
     width: 25%;
-    margin-left: 60%;
+    margin-left: 70%;
     position: absolute;
     bottom: 5%;
 }
 
 footer div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
     column-gap: 5%;
 }
@@ -80,8 +80,15 @@ div#register {
 }
 
 .attribution a {
-    font-size: 48px;
-    color: white !important;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    /* background-color: white; */
 }
 
 @media only screen and (max-width: 750px) {
@@ -96,12 +103,12 @@ div#register {
         width: 200px;
         height: 50px;
         line-height: 50px;
-        font-size: xx-large;
-        /* font-stretch: extra-expanded; */
-        font-weight: bolder;
+        font-size: x-large;
+        /* font-stretch: extra-expanded; 
+        font-weight: bolder;*/
     }
     aside p {
-        font-size: x-large;
+        font-size: large;
     }
     footer {
         width: 100%;
