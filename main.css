@@ -1,17 +1,7 @@
-@font-face {
-    font-family: "Poppins";
-    src: url("https://fonts.google.com/specimen/Poppins")
-}
-
-@font-face {
-    font-family: "OpenSans";
-    src: url("https://fonts.google.com/specimen/Open+Sans")
-}
-
 body {
     background-image: url(images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
-    font-family: "OpenSans", 'Times New Roman', Times, serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
 }
 
@@ -88,7 +78,7 @@ div#register {
     font-size: 20px;
     border: 2px solid white;
     border-radius: 50%;
-    color: white;
+    color: white !important;
     /* background-color: white; */
 }
 
