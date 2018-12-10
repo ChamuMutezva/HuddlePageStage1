@@ -61,16 +61,18 @@ aside p {
     font-size: large;
 }
 
-div#register {
-    width: 150px;
+#register {
+    /*width: 150px;
     height: 30px;
     font-size: x-large;
-    /* border: 1px solid red; */
+     border: 1px solid red; */
     background-color: white;
     text-align: center;
     border-radius: 25px;
     color: hsl(257, 40%, 49%);
-    padding: 0 10px;
+    padding: 10px 70px;
+    justify-self: start;
+    text-decoration: none;
 }
 
 .attribution a {
@@ -97,14 +99,9 @@ div#register {
         font-weight: 700;
     }
 
-    div#register {
-        margin: 0 auto;
-        width: 200px;
-        height: 50px;
-        line-height: 50px;
-        font-size: x-large;
-        /* font-stretch: extra-expanded; 
-        font-weight: bolder;*/
+    #register {
+        margin: auto;
+        
     }
     aside p {
         font-size: large;
