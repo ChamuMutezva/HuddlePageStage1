@@ -3,6 +3,7 @@ body {
     background-color: hsl(257, 40%, 49%);
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    color: white;
 }
 
 header {
@@ -57,7 +58,7 @@ aside {
 }
 
 aside p {
-    font-size: x-large;
+    font-size: large;
 }
 
 div#register {
@@ -68,6 +69,8 @@ div#register {
     background-color: white;
     text-align: center;
     border-radius: 25px;
+    color: hsl(257, 40%, 49%);
+    padding: 0 10px;
 }
 
 .attribution a {
@@ -79,6 +82,7 @@ div#register {
     border: 2px solid white;
     border-radius: 50%;
     color: white !important;
+    text-decoration: none;
     /* background-color: white; */
 }
 
