@@ -12,15 +12,16 @@ header {
 
 h1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
     line-height: 1.5em;
+    font-size: xxx-large;
     height: 3em;
+    width: 90%;
     overflow: hidden;
-    text-align: center;
+    text-align: start;
+    margin: auto;
 }
-
 header img {
-    margin-right: 5%;
+    margin: 5% 5%  5% 0;    
 }
 
 main {
@@ -51,6 +52,10 @@ footer div a {
     font-size: 48px;
 }
 
+/* a.fa {
+    font-size: small;
+} */
+
 aside {
     display: grid;
     grid-template-columns: 1fr;
@@ -76,11 +81,11 @@ aside p {
 }
 
 .attribution a {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    line-height: 36px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 1rem;
     border: 2px solid white;
     border-radius: 50%;
     color: white !important;
@@ -95,16 +100,25 @@ aside p {
         margin: 5%;
     }
 
-    h1{
-        font-weight: 700;
+    header img {       
+        width: 135px;
+    }
+
+    h1 {        
+        font-size: 1.6rem;        
+        text-align: center;       
+        margin: 15% auto 5%;
+        font-weight: 600;
     }
 
     #register {
-        margin: auto;
+        margin: 5% auto 10%;
         
     }
     aside p {
-        font-size: large;
+        font-size: medium;
+        text-align: center;
+        font-weight: 100;
     }
     footer {
         width: 100%;
@@ -115,7 +129,6 @@ aside p {
 
     footer div {
         width: 50%;
-        margin: 0 auto;
-
+        margin: 10% auto;
     }
 }
