@@ -37,7 +37,8 @@ main img {
 footer {
     width: 25%;
     margin-left: 70%;   
-    bottom: 5%;    
+    bottom: 5%; 
+    margin-bottom: 5%;   
 }
 
 footer div {
