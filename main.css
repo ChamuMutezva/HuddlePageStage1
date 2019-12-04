@@ -38,7 +38,7 @@ footer {
     width: 25%;
     margin-left: 70%;
     position: absolute;
-    bottom: 5%;
+    bottom: 5%;    
 }
 
 footer div {
@@ -100,6 +100,10 @@ aside p {
         margin: 5%;
     }
 
+    aside {        
+        margin-bottom: 5%;
+    }
+
     header img {       
         width: 135px;
     }
@@ -120,11 +124,11 @@ aside p {
         text-align: center;
         font-weight: 100;
     }
-    footer {
+    footer { 
         width: 100%;
         margin: 0;
-       position: relative;
-        bottom: 5%;
+       position: relative;    
+        bottom: 2%;
     }
 
     footer div {
