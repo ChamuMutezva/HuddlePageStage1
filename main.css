@@ -36,8 +36,7 @@ main img {
 
 footer {
     width: 25%;
-    margin-left: 70%;
-    position: absolute;
+    margin-left: 70%;   
     bottom: 5%;    
 }
 
@@ -52,9 +51,6 @@ footer div a {
     font-size: 48px;
 }
 
-/* a.fa {
-    font-size: small;
-} */
 
 aside {
     display: grid;
@@ -67,10 +63,7 @@ aside p {
 }
 
 #register {
-    /*width: 150px;
-    height: 30px;
-    font-size: x-large;
-     border: 1px solid red; */
+    
     background-color: white;
     text-align: center;
     border-radius: 25px;
