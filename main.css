@@ -1,9 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    color: white;
+    color: white;   
 }
 
 header {
@@ -129,4 +135,15 @@ aside p {
         width: 50%;
         margin: 10% auto;
     }
+}
+
+@media only screen and (min-width: 1440px) {
+    header, main {
+         margin: 0  5%; 
+    }
+    
+    body {
+        margin: 0 auto;
+    }
+
 }
