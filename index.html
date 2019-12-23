@@ -12,8 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>    
-
+  <style>
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
@@ -28,7 +27,7 @@
     <img src="images/illustration-mockups.svg" alt="illusttation mockups image">
     <aside>
       <h1>
-        Build The Community 
+        Build The Community
         Your Fans Will Love
       </h1>
       <p>
@@ -40,12 +39,12 @@
   </main>
 
   <footer>
-    <div class="attribution">      
-            
-        <a href="#" class="fa fa-facebook-f" aria-label="visit my facebook page" rel="noopener"></a>
-        <a href="#" class="fa fa-twitter" rel="noopener" aria-label="lets chat on twitter"></a>    
-        <a href="#" class="fa fa-instagram" rel="noopener" aria-label="check me out on instagram"></a>
-        <!--
+    <div class="attribution">
+
+      <a href="#" class="fa fa-facebook-f" aria-label="visit my facebook page" rel="noopener"></a>
+      <a href="#" class="fa fa-twitter" rel="noopener" aria-label="lets chat on twitter"></a>
+      <a href="#" class="fa fa-instagram" rel="noopener" aria-label="check me out on instagram"></a>
+      <!--
         <a href="mailto:ckmutezva@gmail.com" class="fa fa-envelope" target="_blank" rel="noopener"></a>
         <a href="https://www.linkedin.com/in/chamumutezva" class="fa fa-linkedin" rel="noopener"> </a> 
         <a href="https://github.com/ChamuMutezva" class="fa fa-github" rel="noopener"></a>
@@ -53,6 +52,20 @@
     -->
     </div>
   </footer>
+  <script>
+    //register a service worker.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(registration => {
+            console.log('Service Worker is registered', registration);
+          })
+          .catch(err => {
+            console.error('Registration failed:', err);
+          });
+      });
+    }
+  </script>
 </body>
 
 </html>
