@@ -8,8 +8,14 @@ const filesToCache = [
   'images/icon-communities.svg',
   'images/illustration-mockups.svg',
   'images/logo.svg',
+  'images/android-chrome-192x192.png',
+  'images/android-chrome-512x512.png',
+  'images/apple-touch-icon.png',
+  'images/mstile-150x150.png',
+  'images/safari-pinned-tab.svg',
   'pages/404.html',
- 'index.html'
+ 'index.html',
+ 'manifest.json',
 ];
 
 const staticCacheName = 'pages-cache-v1';
