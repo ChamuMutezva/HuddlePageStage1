@@ -1,5 +1,5 @@
 # Frontend Mentor - Huddle landing page with single introductory section
-
+Live preview link - https://chamumutezva.github.io/HuddlePageStage1/
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
