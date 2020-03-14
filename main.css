@@ -13,9 +13,10 @@ body {
 }
 
 .banner {
+    position: absolute;  
     align-content: center;
-    display: none;
-    justify-content: center;
+    display: none ;
+  justify-content: center; 
     width: 100%;
   }
 
