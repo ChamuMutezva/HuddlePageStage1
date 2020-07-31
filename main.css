@@ -7,12 +7,14 @@
 body {
     background-image: url(images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
+    background-size: cover;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: white;   
 }
 
 .banner {
+    top: 64px;
     position: absolute;  
     align-content: center;
     display: none ;
@@ -36,7 +38,8 @@ h1 {
     margin: auto;
 }
 header img {
-    margin: 5% 5%  5% 0;    
+    margin: 35px 90px 90px 0;
+    width: 230px;  
 }
 
 main {
@@ -100,6 +103,12 @@ aside p {
     color: white !important;
     text-decoration: none;
     /* background-color: white; */
+}
+
+@media only screen and (min-width: 650px) {
+    .banner {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 750px) {
